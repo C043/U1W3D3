@@ -75,6 +75,10 @@ h2 {
   cursor: pointer;
 }
 
+footer {
+  height: 5em;
+}
+
 .inline {
   display: inline;
   margin-left: 0;
