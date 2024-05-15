@@ -4,12 +4,15 @@ body {
   font-family: "Roboto", sans-serif;
   text-align: center;
   box-sizing: border-box;
-  background-color: rgba(170, 254, 241, 0.808);
+  background-color: rgba(198, 252, 244, 0.901);
 }
 
 header {
   padding-top: 2em;
-  margin: 0 9em;
+  margin: 5em 9em auto 9em;
+  padding: 1em;
+  border-radius: 5px;
+  background-color: white;
 }
 
 header p {
@@ -24,10 +27,16 @@ h1 {
 
 #task-maker {
   margin: 1em;
+  display: inline-block;
+  width: 11.8em;
+  background-color: white;
+  padding: 1em;
+  border-radius: 10px;
 }
 
 #task-maker label {
-  margin: 0.5em;
+  text-align: left;
+  margin-bottom: 0.5em;
 }
 
 #add {
@@ -45,6 +54,8 @@ h1 {
   text-align: left;
   text-align: left;
   border-radius: 6px;
+  background-color: white;
+  padding: 1em;
 }
 
 h2 {
@@ -53,15 +64,14 @@ h2 {
 }
 
 #list-container div {
-  background-color: white;
   width: 100%;
   border-radius: 6px;
-  box-shadow: 9px 9px -6px rgba(0, 0, 0, 0.39);
+  box-shadow: 5px 6px 6px 1px rgba(0, 0, 0, 0.063);
   padding: 0.1em;
   margin-bottom: 0.5em;
 }
 
-p:hover {
+#list-container p:hover {
   cursor: pointer;
 }
 
