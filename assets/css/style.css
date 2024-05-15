@@ -8,11 +8,13 @@ body {
 }
 
 header {
+  display: inline-block;
   padding-top: 2em;
-  margin: 5em 9em auto 9em;
+  margin: 5em auto auto auto;
   padding: 1em;
-  border-radius: 5px;
+  border-radius: 10px;
   background-color: white;
+  min-width: 12em;
 }
 
 header p {
@@ -28,7 +30,7 @@ h1 {
 #task-maker {
   margin: 1em;
   display: inline-block;
-  width: 11.8em;
+  width: 12em;
   background-color: white;
   padding: 1em;
   border-radius: 10px;
@@ -49,11 +51,11 @@ h1 {
 
 #list-container {
   display: inline-block;
-  width: 11.8em;
+  width: 12em;
   margin: auto;
   text-align: left;
   text-align: left;
-  border-radius: 6px;
+  border-radius: 10px;
   background-color: white;
   padding: 1em;
 }
