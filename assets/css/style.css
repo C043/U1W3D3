@@ -4,10 +4,11 @@ body {
   font-family: "Roboto", sans-serif;
   text-align: center;
   box-sizing: border-box;
+  background-color: rgba(170, 254, 241, 0.808);
 }
 
 header {
-  padding: 1em;
+  padding-top: 2em;
 }
 
 h1 {
@@ -24,19 +25,34 @@ h1 {
 
 #list-container {
   display: inline-block;
-  width: 20%;
+  width: 11.8em;
   margin: auto;
-  border: 1px solid black;
   text-align: left;
   text-align: left;
+  border-radius: 6px;
 }
 
 h2 {
   font-size: 1em;
+  margin-bottom: 0.5em;
+}
+
+#list-container div {
+  background-color: white;
+  width: 100%;
+  border-radius: 6px;
+  box-shadow: 9px 9px -6px rgba(0, 0, 0, 0.39);
+  padding: 0.1em;
+  margin-bottom: 0.5em;
+}
+
+p:hover {
+  cursor: pointer;
 }
 
 .inline {
   display: inline;
+  margin-left: 0;
 }
 
 .block {
