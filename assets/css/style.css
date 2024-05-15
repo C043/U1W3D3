@@ -99,6 +99,10 @@ footer {
   text-decoration: line-through;
 }
 
+.clickable:hover {
+  cursor: pointer;
+}
+
 .fade-out {
   animation: fadeIn 1s;
   -webkit-animation: fadeIn 1s;

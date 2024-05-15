@@ -26,6 +26,7 @@ taskMaker.addEventListener("submit", function (event) {
   task.innerText = upperCase;
   // mette sulla stessa linea il checkbox e la task
   check.classList.add("inline");
+  check.classList.add("clickable");
   task.classList.add("inline");
   // append elements
   div.append(check, task);
@@ -87,8 +88,8 @@ const randomMotivation = function () {
     "Love yourself first and everything else falls into line.",
     "In three words I can sum up everything I've learned about life: It goes on.",
   ];
-  const randomQuote =
-    motivationalQuotes[Math.floor(Math.random() * motivationalQuotes.length)];
+
+  const randomQuote = motivationalQuotes[Math.floor(Math.random() * 49)];
   const subTitle = document.createElement("p");
   subTitle.innerText = "''" + randomQuote + "''";
   return subTitle;
