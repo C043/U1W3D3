@@ -23,6 +23,14 @@ h1 {
   margin: 0.5em;
 }
 
+#add {
+  border: 1px solid rgba(0, 0, 0, 0.333);
+  border-radius: 5px;
+  width: auto;
+  overflow: visible;
+  background: white;
+}
+
 #list-container {
   display: inline-block;
   width: 11.8em;
