@@ -14,12 +14,20 @@
     </header>
     <main>
       <section>
-        <form>
-          <input type="text" placeholder="Cosa devi fare oggi?" />
-          <button>Aggiungi</button>
+        <form id="task-maker">
+          <label for="custom-task" class="block">Create your Task</label>
+          <input
+            type="text"
+            name="custom-task"
+            placeholder="Write your task"
+            id="custom-task"
+            required
+            autofocus
+          />
+          <button id="add">Add</button>
         </form>
       </section>
-      <section id="List"></section>
+      <section id="list"></section>
     </main>
     <script src="assets/script/script.js"></script>
   </body>
