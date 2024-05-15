@@ -1,4 +1,6 @@
 const taskMaker = document.getElementById("task-maker");
+
+// logica per la to-do list e per il task-maker
 taskMaker.addEventListener("submit", function (event) {
   event.preventDefault();
   const customTask = document.getElementById("custom-task");
@@ -8,7 +10,10 @@ taskMaker.addEventListener("submit", function (event) {
   const check = document.createElement("input");
   check.type = "checkbox";
   check.addEventListener("click", function () {
-    check.parentNode.remove();
+    check.parentNode.classList.add("fade-out");
+    setTimeout(function () {
+      check.parentNode.remove();
+    }, 1000);
   });
   const task = document.createElement("p");
   task.classList.add("task");
